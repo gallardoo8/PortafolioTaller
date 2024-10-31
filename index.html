@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <section class="container">
+            <div class="logo">
+                <a href="index.html">gallardoo_08</a>
+            </div>
+            <button class="menu-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M4 6H20V8H4zM4 11H20V13H4zM4 16H20V18H4z"/></svg>
+                <svg class="none" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M16.192 6.344L11.949 10.586 7.707 6.344 6.293 7.758 10.535 12 6.293 16.242 7.707 17.656 11.949 13.414 16.192 17.656 17.606 16.242 13.364 12 17.606 7.758z"/></svg>
+            </button>
+            <nav class="menu">
+                <a href="#inicio">Inicio</a>
+                <a href="#acerca">Acerca</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#portafolio">Portafolio</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+        </section>
+    </header>
+    <section id="inicio" class="home">
+        <article class="hero-image" style="--hero-image: url('assets/assets/hero-image-home.jpg');--hero-attachment:fixed;">
+            <aside class="hero-image-opacity" style="--hero-opacity-color:var(--black-alpha-color);">
+                <div class="hero-image-content">
+                    <h2 class="hero-image-title"style="--hero-text-color: var(--white-color);">
+                        Bienvenid@s <br>a mi sitio
+                    </h2>
+                    <a href="#contacto" class="btn">Contáctame</a>
+                </div>
+            </aside>
+        </article>
+    </section>
+    <section id="acerca" class="about section container full-lg-screen">
+        <article class="text-lg-right">
+            <aside class="text-center text-lg-right">
+                <h1>Constanza Lanuza Gallardo</h1>
+                <h5>Estudiante de Ingeniería de Software</h5>
+            </aside>
+            <p>Soy estudiante de tercer semestre de Ingeniería de Software en la Universidad Autónoma de Querétaro. Me apasiona la tecnología y cómo puede resolver problemas reales.</p>
+            <p>He participado en proyectos que abarcan desde aplicaciones básicas hasta bases de datos, lo que me ha ayudado a desarrollar habilidades técnicas y trabajo en equipo.</p>
+            <p>Mi meta es construir una carrera en desarrollo de software, enfocándome en aplicaciones innovadoras que generen un impacto positivo en la sociedad.</p>
+            <div class="text-center text-lg-left">
+                <a class="btn"href="https://drive.google.com/file/d/1wfjXd2XrV-FbQ-YZrr2WnjS8pDZMf6lV/view" target="_blank"
+                rel="nopopener">Descarga mi CV</a>
+            </div> 
+        </article>
+        <article>
+            <img class="gray-scale" src="assets/assets/constanza.jpg" alt="constanza">
+        </article>
+        <article>
+            <h2 class="text-center text-lg-left">Mis Habilidades</h2>
+            <div class="progress">
+                <p>
+                    <b>Dominio de lenguajes Web</b>
+                    <b>50%</b>
+                </p>
+                <progress value="50" min="0" max="100"></progress>
+            </div>
+            <div class="progress">
+                <p>
+                    <b>Frameworks y bibliotecas</b>
+                    <b>40%</b>
+                </p>
+                <progress value="40" min="0" max="100"></progress>
+            </div>
+            <div class="progress">
+                <p>
+                    <b>Desarrollo backend</b>
+                    <b>40%</b>
+                </p>
+                <progress value="40" min="0" max="100"></progress>
+            </div>
+            <div class="progress">
+                <p>
+                    <b>Responsive Design</b>
+                    <b>35%</b>
+                </p>
+                <progress value="35" min="0" max="100"></progress>
+            </div>
+            <div class="progress">
+                <p>
+                    <b>Social Media y Marketing de contenidos</b>
+                    <b>70%</b>
+                </p>
+                <progress value="70" min="0" max="100"></progress>
+            </div>
+        </article>
+    </section>
+    <section id="servicios" class="services section bg-gray-light">
+        <div class="container full-lg-screen">
+            <h2 class="section-title">¿Qué te ofrezco?</h2>
+            <article class="service-card">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20,3H4C2.897,3,2,3.897,2,5v14c0,1.103,0.897,2,2,2h16c1.103,0,2-0.897,2-2V5C22,3.897,21.103,3,20,3z M4,19V7h16 l0.002,12H4z"/><path d="M9.293 9.293L5.586 13 9.293 16.707 10.707 15.293 8.414 13 10.707 10.707zM14.707 9.293L13.293 10.707 15.586 13 13.293 15.293 14.707 16.707 18.414 13z"/></svg>
+                <h3>Programación Web</h3>
+                <p>Ofrezco desarrollo web enfocado en crear aplicaciones funcionales y optimizadas, adaptadas a las necesidades de cada proyecto.</p>
+            </article>
+            <article class="service-card">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20,3H7C5.897,3,5,3.897,5,5v2H4C2.897,7,2,7.897,2,9v10c0,1.103,0.897,2,2,2h6c1.103,0,2-0.897,2-2h8c1.103,0,2-0.897,2-2 V5C22,3.897,21.103,3,20,3z M6,9h4l-0.003,9H4V9H6z M12,17V9c0-1.103-0.897-2-2-2H7V5h11v12H12z"/></svg>
+                <h3>Diseño Web</h3>
+                <p>Desarrollo sitios y aplicaciones web dinámicas, personalizadas y eficientes, con un enfoque en funcionalidad y excelente experiencia de usuario.</p>
+            </article>
+            <article class="service-card">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><circle cx="12" cy="20" r="2"/><circle cx="12" cy="4" r="2"/><circle cx="6.343" cy="17.657" r="2"/><circle cx="17.657" cy="6.343" r="2"/><circle cx="4" cy="12" r="2.001"/><circle cx="20" cy="12" r="2"/><circle cx="6.343" cy="6.344" r="2"/><circle cx="17.657" cy="17.658" r="2"/></svg>
+                <h3>WPO</h3>
+                <p>Me especializo en optimizar el rendimiento web para lograr sitios rápidos y eficientes.</p>
+            </article>
+            <article class="service-card">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10,18c1.846,0,3.543-0.635,4.897-1.688l4.396,4.396l1.414-1.414l-4.396-4.396C17.365,13.543,18,11.846,18,10 c0-4.411-3.589-8-8-8s-8,3.589-8,8S5.589,18,10,18z M10,4c3.309,0,6,2.691,6,6s-2.691,6-6,6s-6-2.691-6-6S6.691,4,10,4z"/><path d="M11.412,8.586C11.791,8.966,12,9.468,12,10h2c0-1.065-0.416-2.069-1.174-2.828c-1.514-1.512-4.139-1.512-5.652,0 l1.412,1.416C9.346,7.83,10.656,7.832,11.412,8.586z"/></svg>
+                <h3>SEO</h3>
+                <p>Optimizo sitios web para mejorar su visibilidad en motores de búsqueda, aumentando el tráfico orgánico mediante estrategias efectivas de SEO y mejores prácticas en contenido.</p>
+            </article>
+            <article class="service-card">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M16.018,3.815L15.232,8h-4.966l0.716-3.815L9.018,3.815L8.232,8H4v2h3.857l-0.751,4H3v2h3.731l-0.714,3.805l1.965,0.369 L8.766,16h4.966l-0.714,3.805l1.965,0.369L15.766,16H20v-2h-3.859l0.751-4H21V8h-3.733l0.716-3.815L16.018,3.815z M14.106,14H9.141 l0.751-4h4.966L14.106,14z"/></svg>
+                <h3>SMO</h3>
+                <p>Optimizo perfiles y contenidos en redes sociales para aumentar la visibilidad y el engagement, utilizando estrategias de Social Media Optimization.</p>
+            </article>
+            <article class="service-card">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M4 15v4h16.002L20 15H4zM16 18h-2v-2h2V18zM19 18h-2v-2h2V18zM4 5v4h16.002L20 5H4zM16 8h-2V6h2V8zM19 8h-2V6h2V8z"/><path d="M20 3H4C2.897 3 2 3.897 2 5v4c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V5C22 3.897 21.103 3 20 3zM4 9V5h16l.002 4H4zM20 13H4c-1.103 0-2 .897-2 2v4c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2v-4C22 13.897 21.103 13 20 13zM4 19v-4h16l.002 4H4z"/><path d="M17 6H19V8H17zM14 6H16V8H14zM17 16H19V18H17zM14 16H16V18H14z"/></svg>
+                <h3>Web Hosting</h3>
+                <p>Proporciono soluciones de web hosting confiables y escalables, asegurando un rendimiento óptimo, seguridad y disponibilidad continua para tus sitios y aplicaciones.</p>
+            </article>
+        </div>
+    </section>
+    <section id="portafolio" class="portfolio section">
+        <div class="container">
+            <h2 class="section-title">Mis Trabajos</h2>
+        <a href="#trabajo-1" class="portfolio-card">
+            <img src="assets/assets/portafolio-1.jpg" alt="Trabajo 1">
+            <aside class="portfolio-card-info">
+                <div>
+                    <h3>Proyecto 1</h3>
+                    <p>
+                        Este proyecto consiste en el desarrollo e implementación de un filtro de gorra utilizando la plataforma MetaSpark, destacando la integración de tecnología de realidad aumentada para mejorar la interacción del usuario.
+                    </p>
+                </div>
+            </aside>
+        </a>
+        <a href="#trabajo-2" class="portfolio-card">
+            <img src="assets/assets/portafolio-2.jpg" alt="Trabajo 2">
+            <aside class="portfolio-card-info">
+                <div>
+                    <h3>Proyecto 2</h3>
+                    <p>
+                        Proyecto de plataforma en línea para aficionados de la Fórmula 1, que permite registrarse en carreras, gestionar perfiles, y recibir retroalimentación en tiempo real, optimizando la experiencia del usuario.
+                    </p>
+                </div>
+            </aside>
+        </a>
+        <a href="#trabajo-3" class="portfolio-card">
+            <img src="assets/assets/portafolio-3.jpg" alt="Trabajo 3">
+            <aside class="portfolio-card-info">
+                <div>
+                    <h3>Proyecto 3</h3>
+                    <p>
+                        MuscleMate es una aplicación de fitness con un sistema modular que genera rutinas automáticas para principiantes y permite a usuarios avanzados personalizar sus entrenamientos según sus necesidades.
+                    </p>
+                </div>
+            </aside>
+        </a>
+        <a href="#trabajo-4" class="portfolio-card">
+            <img src="assets/assets/portafolio-4.jpg" alt="Trabajo 4">
+            <aside class="portfolio-card-info">
+                <div>
+                    <h3>Proyecto 4</h3>
+                    <p>
+                        Interfaz de registro para la página de una universidad, que facilita la creación y gestión de cuentas, permitiendo un proceso de inscripción intuitivo y eficiente para nuevos estudiantes.
+                    </p>
+                </div>
+            </aside>
+        </a>
+        <a href="#trabajo-5" class="portfolio-card">
+            <img src="assets/assets/portafolio-5.jpg" alt="Trabajo 5">
+            <aside class="portfolio-card-info">
+                <div>
+                    <h3>Proyecto 5</h3>
+                    <p>
+                        Simulador epidemiológico programado en Python que modela la propagación de enfermedades en una población. Utiliza parámetros ajustables, como tasa de infección y recuperación, para visualizar dinámicas de contagio y analizar posibles escenarios epidemiológicos.
+                    </p>
+                </div>
+            </aside>
+        </a>
+        <a href="#trabajo-6" class="portfolio-card">
+            <img src="assets/assets/portafolio-6.jpg" alt="Trabajo 6">
+            <aside class="portfolio-card-info">
+                <div>
+                    <h3>Proyecto 6</h3>
+                    <p>
+                        Proyecto de página web responsiva en HTML que permite buscar componentes uar. La interfaz incluye un buscador central y botones interactivos para facilitar la navegación, optimizada para adaptarse a diferentes dispositivos y tamaños de pantalla.
+                    </p>
+                </div>
+            </aside>
+        </a>
+        </div>
+    </section>
+    <article class="modal" id="trabajo-1">
+        <div class="modal-content">
+            <a href="#cerrar" class="modal-close">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z"/></svg>
+            </a>
+            <article class="portfolio-modal">
+                <img src="assets/assets/portafolio-1.jpg" alt="Trabajo-1">
+                <div class="portfolio-info">
+                    <h3>Filtro en Meta</h3>
+                    <p>
+                        Este proyecto consiste en el desarrollo e implementación de un filtro de gorra utilizando la plataforma MetaSpark, destacando la integración de tecnología de realidad aumentada para mejorar la interacción del usuario.
+                    </p>
+                    <aside class="portfolio-details">
+                        <small><b>Cliente</b></small>
+                        <small>Fernando navarro Villeda</small>
+                        <small><b>Fecha</b></small>
+                        <small>23/May/2024</small>
+                        <small><b>Tipo</b></small>
+                        <small>Realidad Aumentada</small>
+                        <small><b>Enlace</b></small>
+                        <small><a href="https://www.instagram.com/ar/3445288209096102/?ch=OTkwNjJjZDlkMWI2OTFjMjJiOWIzMDA5YWFiMjRiOTg%3D " target="_blank" rel="nopopener">
+                            https://www.instagram.com/ar/3445288209096102/?ch=OTkwNjJjZDlkMWI2OTFjMjJiOWIzMDA5YWFiMjRiOTg%3D 
+                        </a></small>
+                    </aside>
+                </div>
+            </article>
+        </div>
+    </article>
+    <article class="modal" id="trabajo-2">
+        <div class="modal-content">
+            <a href="#cerrar" class="modal-close">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z"/></svg>
+            </a>
+            <article class="portfolio-modal">
+                <img src="assets/assets/portafolio-2.jpg" alt="Trabajo-2">
+                <div class="portfolio-info">
+                    <h3>Registro F1</h3>
+                    <p>
+                        Proyecto de plataforma en línea para aficionados de la Fórmula 1, que permite registrarse en carreras, gestionar perfiles, y recibir retroalimentación en tiempo real, optimizando la experiencia del usuario.
+                    </p>
+                    <aside class="portfolio-details">
+                        <small><b>Cliente</b></small>
+                        <small>Fernando navarro Villeda</small>
+                        <small><b>Fecha</b></small>
+                        <small>23/May/2024</small>
+                        <small><b>Tipo</b></small>
+                        <small>Diseño Web</small>
+                        <small><b>Enlace</b></small>
+                        <small><a href="https://drive.google.com/file/d/1hipccXgWo3TIXdta4U8kWsO-zS4_sHvD/view" target="_blank" rel="nopopener">
+                            https://drive.google.com/file/d/1hipccXgWo3TIXdta4U8kWsO-zS4_sHvD/view 
+                        </a></small>
+                    </aside>
+                </div>
+            </article>
+        </div>
+    </article>
+    <article class="modal" id="trabajo-3">
+        <div class="modal-content">
+            <a href="#cerrar" class="modal-close">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z"/></svg>
+            </a>
+            <article class="portfolio-modal">
+                <img src="assets/assets/portafolio-3.jpg" alt="Trabajo-3">
+                <div class="portfolio-info">
+                    <h3>MuscleMate</h3>
+                    <p>
+                        MuscleMate es una aplicación de fitness con un sistema modular que genera rutinas automáticas para principiantes y permite a usuarios avanzados personalizar sus entrenamientos según sus necesidades.
+                    </p>
+                    <aside class="portfolio-details">
+                        <small><b>Cliente</b></small>
+                        <small>Sergio Pérez Rodríguez</small>
+                        <small><b>Fecha</b></small>
+                        <small>06/Ago/2024</small>
+                        <small><b>Tipo</b></small>
+                        <small>Desarrollo Web</small>
+                        <small><b>Enlace</b></small>
+                        <small><a href="https://drive.google.com/file/d/1TgaJVrMGMwcj-kQEzHkWQS_kxDsRGZIa/view" target="_blank" rel="nopopener">
+                            https://drive.google.com/file/d/1TgaJVrMGMwcj-kQEzHkWQS_kxDsRGZIa/view
+                        </a></small>
+                    </aside>
+                </div>
+            </article>
+        </div>
+    </article>
+    <article class="modal" id="trabajo-4">
+        <div class="modal-content">
+            <a href="#cerrar" class="modal-close">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z"/></svg>
+            </a>
+            <article class="portfolio-modal">
+                <img src="assets/assets/portafolio-4.jpg" alt="Trabajo-4">
+                <div class="portfolio-info">
+                    <h3>Página Universidad de Londres</h3>
+                    <p>
+                        Interfaz de registro para la página de una universidad, que facilita la creación y gestión de cuentas, permitiendo un proceso de inscripción intuitivo y eficiente para nuevos estudiantes.
+                    </p>
+                    <aside class="portfolio-details">
+                        <small><b>Cliente</b></small>
+                        <small>Sofía Amadis Rivera</small>
+                        <small><b>Fecha</b></small>
+                        <small>10/Jun/2024</small>
+                        <small><b>Tipo</b></small>
+                        <small>Diseño Web</small>
+                        <small><b>Enlace</b></small>
+                        <small><a href="https://drive.google.com/file/d/1pLdntZ1vOFhFAu5YD99XEoblJLxaK8k6/view" target="_blank" rel="nopopener">
+                            https://drive.google.com/file/d/1pLdntZ1vOFhFAu5YD99XEoblJLxaK8k6/view   
+                        </a></small>
+                     </aside>
+                </div>
+            </article>
+        </div>
+    </article>
+    <article class="modal" id="trabajo-5">
+        <div class="modal-content">
+            <a href="#cerrar" class="modal-close">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z"/></svg>
+            </a>
+            <article class="portfolio-modal">
+                <img src="assets/assets/portafolio-5.jpg" alt="Trabajo-5">
+                <div class="portfolio-info">
+                    <h3>Simulador epidemiológico</h3>
+                    <p>
+                        Simulador epidemiológico programado en Python que modela la propagación de enfermedades en una población. Utiliza parámetros ajustables, como tasa de infección y recuperación, para visualizar dinámicas de contagio y analizar posibles escenarios epidemiológicos.
+                    </p>
+                    <aside class="portfolio-details">
+                        <small><b>Cliente</b></small>
+                        <small>Edgar Ponce de León</small>
+                        <small><b>Fecha</b></small>
+                        <small>14/Oct/2024</small>
+                        <small><b>Tipo</b></small>
+                        <small>Desarrollo Web</small>
+                        <small><b>Enlace</b></small>
+                        <small><a href="https://drive.google.com/file/d/1BlE2nvQ1TnrPcQmAxI3huOl6kZsFsTgd/view" target="_blank" rel="nopopener">
+                            https://drive.google.com/file/d/1BlE2nvQ1TnrPcQmAxI3huOl6kZsFsTgd/view    
+                        </a></small>
+                    </aside>
+                </div>
+            </article>
+        </div>
+    </article>
+    <article class="modal" id="trabajo-6">
+        <div class="modal-content">
+            <a href="#cerrar" class="modal-close">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z"/></svg>
+            </a>
+            <article class="portfolio-modal">
+                <img src="assets/assets/portafolio-6.jpg" alt="Trabajo-6">
+                <div class="portfolio-info">
+                    <h3>Componentes UAR</h3>
+                    <p>
+                        Proyecto de página web responsiva en HTML que permite buscar componentes uar. La interfaz incluye un buscador central y botones interactivos para facilitar la navegación, optimizada para adaptarse a diferentes dispositivos y tamaños de pantalla.
+                    </p>
+                    <aside class="portfolio-details">
+                        <small><b>Cliente</b></small>
+                        <small>Fernando Navarro</small>
+                        <small><b>Fecha</b></small>
+                        <small>21/Mar/2024</small>
+                        <small><b>Tipo</b></small>
+                        <small>Diseño Web</small>
+                        <small><b>Enlace</b></small>
+                        <small><a href="https://drive.google.com/file/d/1jyxZtXr_q47rfXiirew_EZsLxNVyrBhA/view" target="_blank" rel="nopopener">
+                            https://drive.google.com/file/d/1jyxZtXr_q47rfXiirew_EZsLxNVyrBhA/view  
+                        </a></small>                  
+                    </aside>
+                </div>
+            </article>
+        </div>
+    </article>
+    <section id="contacto" class="contact section">
+        <div class="container">
+            <h2 class="section-title">Contáctame</h2>
+            <article class="contact-cards">
+                <aside class="contact-card box-shadow-1">
+                    <svg width="37" height="28" viewBox="0 0 37 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M18.5 7.3125L7 16.8125V27C7 27.5625 7.4375 28 8 28H15C15.5 28 15.9375 27.5625 15.9375 27V21C15.9375 20.5 16.4375 20 16.9375 20H20.9375C21.5 20 21.9375 20.5 21.9375 21V27C21.9375 27.5625 22.4375 28 22.9375 28H30C30.5 28 31 27.5625 31 27V16.75L19.4375 7.3125C19.3125 7.1875 19.125 7.125 19 7.125C18.8125 7.125 18.625 7.1875 18.5 7.3125ZM36.6875 13.75L31.5 9.4375V0.8125C31.5 0.375 31.125 0.0625 30.75 0.0625H27.25C26.8125 0.0625 26.5 0.375 26.5 0.8125V5.3125L20.875 0.6875C20.375 0.3125 19.6875 0.0625 19 0.0625C18.25 0.0625 17.5625 0.3125 17.0625 0.6875L1.25 13.75C1.0625 13.875 0.9375 14.125 0.9375 14.3125C0.9375 14.5 1.0625 14.6875 1.125 14.8125L2.75 16.75C2.875 16.9375 3.0625 17 3.3125 17C3.5 17 3.6875 16.9375 3.8125 16.8125L18.5 4.75C18.625 4.625 18.8125 4.5625 19 4.5625C19.125 4.5625 19.3125 4.625 19.4375 4.75L34.125 16.8125C34.25 16.9375 34.4375 17 34.625 17C34.875 17 35.0625 16.9375 35.1875 16.75L36.8125 14.8125C36.9375 14.6875 37 14.5 37 14.3125C37 14.125 36.875 13.875 36.6875 13.75Z" fill="#D90062"/>
+                        </svg>
+                        <h5>Ubicación</h5>
+                        <small>Querétaro,Querétaro,México</small>
+                </aside>
+                <aside class="contact-card box-shadow-1">
+                    <svg width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M31.8125 1.5625L25.3125 0.0625C24.625 -0.125 23.875 0.25 23.5625 0.9375L20.5625 7.9375C20.3125 8.5625 20.5 9.25 21 9.6875L24.8125 12.8125C22.5625 17.5625 18.625 21.5625 13.75 23.875L10.625 20.0625C10.1875 19.5625 9.5 19.375 8.875 19.625L1.875 22.625C1.1875 22.9375 0.875 23.6875 1 24.375L2.5 30.875C2.6875 31.5625 3.25 32 4 32C20 32 33 19.0625 33 3C33 2.3125 32.5 1.75 31.8125 1.5625Z" fill="#D90062"/>
+                        </svg>
+                        <h5>Teléfono</h5>
+                        <small><a href="tel:4641707565">(+52)4641707565</a></small>
+                </aside>
+                <aside class="contact-card box-shadow-1">
+                    <svg width="32" height="24" viewBox="0 0 32 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M31.375 7.9375C29.9375 9.0625 28.125 10.4375 21.75 15.0625C20.5 16 18.1875 18.0625 16 18.0625C13.75 18.0625 11.5 16 10.1875 15.0625C3.8125 10.4375 2 9.0625 0.5625 7.9375C0.3125 7.75 0 7.9375 0 8.25V21C0 22.6875 1.3125 24 3 24H29C30.625 24 32 22.6875 32 21V8.25C32 7.9375 31.625 7.75 31.375 7.9375ZM16 16C17.4375 16.0625 19.5 14.1875 20.5625 13.4375C28.875 7.4375 29.5 6.875 31.375 5.375C31.75 5.125 32 4.6875 32 4.1875V3C32 1.375 30.625 0 29 0H3C1.3125 0 0 1.375 0 3V4.1875C0 4.6875 0.1875 5.125 0.5625 5.375C2.4375 6.875 3.0625 7.4375 11.375 13.4375C12.4375 14.1875 14.5 16.0625 16 16Z" fill="#D90062"/>
+                        </svg>
+                        <h5>E-Mail</h5>
+                        <small><a href="mailto:constanzalanuza259@gmail.com">constanzalanuza259@gmail.com</a></small>
+                </aside>
+                <aside class="contact-card box-shadow-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M16.018,3.815L15.232,8h-4.966l0.716-3.815L9.018,3.815L8.232,8H4v2h3.857l-0.751,4H3v2h3.731l-0.714,3.805l1.965,0.369 L8.766,16h4.966l-0.714,3.805l1.965,0.369L15.766,16H20v-2h-3.859l0.751-4H21V8h-3.733l0.716-3.815L16.018,3.815z M14.106,14H9.141 l0.751-4h4.966L14.106,14z"/></svg>
+                        <h5>Social Media</h5>
+                        <small class="social-media">
+                            <a href="https://x.com/LanuzaGallardo" target="_blank" rel="nopopener">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19.633,7.997c0.013,0.175,0.013,0.349,0.013,0.523c0,5.325-4.053,11.461-11.46,11.461c-2.282,0-4.402-0.661-6.186-1.809	c0.324,0.037,0.636,0.05,0.973,0.05c1.883,0,3.616-0.636,5.001-1.721c-1.771-0.037-3.255-1.197-3.767-2.793	c0.249,0.037,0.499,0.062,0.761,0.062c0.361,0,0.724-0.05,1.061-0.137c-1.847-0.374-3.23-1.995-3.23-3.953v-0.05	c0.537,0.299,1.16,0.486,1.82,0.511C3.534,9.419,2.823,8.184,2.823,6.787c0-0.748,0.199-1.434,0.548-2.032	c1.983,2.443,4.964,4.04,8.306,4.215c-0.062-0.3-0.1-0.611-0.1-0.923c0-2.22,1.796-4.028,4.028-4.028	c1.16,0,2.207,0.486,2.943,1.272c0.91-0.175,1.782-0.512,2.556-0.973c-0.299,0.935-0.936,1.721-1.771,2.22	c0.811-0.088,1.597-0.312,2.319-0.624C21.104,6.712,20.419,7.423,19.633,7.997z"/></svg>
+                            </a>
+                            <a href="https://www.instagram.com/gallardoo_08/" target="_blank" rel="nopopener">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M11.999,7.377c-2.554,0-4.623,2.07-4.623,4.623c0,2.554,2.069,4.624,4.623,4.624c2.552,0,4.623-2.07,4.623-4.624	C16.622,9.447,14.551,7.377,11.999,7.377L11.999,7.377z M11.999,15.004c-1.659,0-3.004-1.345-3.004-3.003	c0-1.659,1.345-3.003,3.004-3.003s3.002,1.344,3.002,3.003C15.001,13.659,13.658,15.004,11.999,15.004L11.999,15.004z"/><circle cx="16.806" cy="7.207" r="1.078"/><path d="M20.533,6.111c-0.469-1.209-1.424-2.165-2.633-2.632c-0.699-0.263-1.438-0.404-2.186-0.42	c-0.963-0.042-1.268-0.054-3.71-0.054s-2.755,0-3.71,0.054C7.548,3.074,6.809,3.215,6.11,3.479C4.9,3.946,3.945,4.902,3.477,6.111	c-0.263,0.7-0.404,1.438-0.419,2.186c-0.043,0.962-0.056,1.267-0.056,3.71c0,2.442,0,2.753,0.056,3.71	c0.015,0.748,0.156,1.486,0.419,2.187c0.469,1.208,1.424,2.164,2.634,2.632c0.696,0.272,1.435,0.426,2.185,0.45	c0.963,0.042,1.268,0.055,3.71,0.055s2.755,0,3.71-0.055c0.747-0.015,1.486-0.157,2.186-0.419c1.209-0.469,2.164-1.424,2.633-2.633	c0.263-0.7,0.404-1.438,0.419-2.186c0.043-0.962,0.056-1.267,0.056-3.71s0-2.753-0.056-3.71C20.941,7.57,20.801,6.819,20.533,6.111z M19.315,15.643c-0.007,0.576-0.111,1.147-0.311,1.688c-0.305,0.787-0.926,1.409-1.712,1.711c-0.535,0.199-1.099,0.303-1.67,0.311	c-0.95,0.044-1.218,0.055-3.654,0.055c-2.438,0-2.687,0-3.655-0.055c-0.569-0.007-1.135-0.112-1.669-0.311	c-0.789-0.301-1.414-0.923-1.719-1.711c-0.196-0.534-0.302-1.099-0.311-1.669c-0.043-0.95-0.053-1.218-0.053-3.654	c0-2.437,0-2.686,0.053-3.655c0.007-0.576,0.111-1.146,0.311-1.687c0.305-0.789,0.93-1.41,1.719-1.712	c0.534-0.198,1.1-0.303,1.669-0.311c0.951-0.043,1.218-0.055,3.655-0.055c2.437,0,2.687,0,3.654,0.055	c0.571,0.007,1.135,0.112,1.67,0.311c0.786,0.303,1.407,0.925,1.712,1.712c0.196,0.534,0.302,1.099,0.311,1.669	c0.043,0.951,0.054,1.218,0.054,3.655c0,2.436,0,2.698-0.043,3.654H19.315z"/></svg>
+                            </a>
+                        </small>
+                </aside>
+            </article>
+            <form class="contact-form box-shadow-1">
+                <input type="text" name="name" placeholder="Ingresa tu nombre"
+                title="Nombre sólo acepta letfras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+                <input type="email" name="email" placeholder="Ingresa tu correo" title="Email incorrecto"
+                pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
+                <textarea name="comments" cols="50" rows="10" placeholder="Déjame tus comentarios *" required></textarea>
+                <div class="contact-form-loader text-center none">
+                    <img src="assets/assets/loader.svg" alt="Enviando...">
+                </div>
+                <input class="btn" type="submit" value="Enviar mensaje">
+            </form>
+            <article id="gracias" class="modal">
+                <div class="modal-content">
+                    <article class="contact-form-response">
+                        <h3>
+                            ¡Muchas Gracias!
+                            <br>
+                            Por tus comentarios
+                        </h3>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12,18c4,0,5-4,5-4H7C7,14,8,18,12,18z"/><path d="M12,2C6.486,2,2,6.486,2,12c0,5.514,4.486,10,10,10s10-4.486,10-10C22,6.486,17.514,2,12,2z M12,20c-4.411,0-8-3.589-8-8 s3.589-8,8-8s8,3.589,8,8S16.411,20,12,20z"/><path d="M13 12l2 .012C15.012 11.55 15.194 11 16 11s.988.55 1 1h2c0-1.206-.799-3-3-3S13 10.794 13 12zM8 11c.806 0 .988.55 1 1h2c0-1.206-.799-3-3-3s-3 1.794-3 3l2 .012C7.012 11.55 7.194 11 8 11z"/></svg>
+                    </article>
+                </div>
+            </article>
+        </div>
+    </section>
+    <footer class="footer">
+        <small>Sitio diseñado por <a href="https://www.instagram.com/gallardoo_08/"target="_blank"
+        rel="nopopener">@gallardoo_08</a></small>
+    </footer>
+    <script src="script.js"> </script>
+</body>
+</html>
